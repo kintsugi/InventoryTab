@@ -19,8 +19,8 @@ namespace InventoryTab.Helpers
         private const float _optionsHeight = 32;
         private const float _indexJumper = 30;
         //Options, all hard coded because thats going to be the simplest
-        private bool _searchMap = false;
-        private bool _searchPawns = false;
+        private bool _searchMap = true;
+        private bool _searchPawns = true;
         private bool _searchShipChunks = false;
 
         private bool _autoUpdate = true;
